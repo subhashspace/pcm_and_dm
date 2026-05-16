@@ -8,10 +8,11 @@ Write a simple Python program for the modulation and demodulation of PCM, and DM
 * Python IDE
 
 ### Program
+### PCM
+
 
 ```py
 
-#PCM
 import numpy as np
 import matplotlib.pyplot as plt
 # Parameters
@@ -64,9 +65,10 @@ plt.ylabel("Amplitude")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+```
 
-
-#DM
+### DM
+```py
 #Delta Modulation
 import numpy as np
 import matplotlib.pyplot as plt
@@ -124,9 +126,6 @@ plt.legend()
 plt.grid()
 plt.tight_layout()
 plt.show()
-
-
-
 
 ```
 
